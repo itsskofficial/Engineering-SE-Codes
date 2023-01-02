@@ -14,7 +14,7 @@ int main()
     char ch; //choice
     int gd=DETECT,gm, flag;
     char *msg; //char pointer for msg
-    msg = "Press escape to exit";
+    msg[0]=;
     initgraph(&gd,&gm,NULL);
     while(1)
     {
