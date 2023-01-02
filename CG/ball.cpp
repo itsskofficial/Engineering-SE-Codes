@@ -11,7 +11,7 @@ int main()
 {
     int x=250,y=250; //initial position of ball
     int dx, dy; //change in coordinates
-    char ch;
+    char ch; //choice
     int gd=DETECT,gm, flag;
     char *msg; //char pointer for msg
     msg = "Press escape to exit";
