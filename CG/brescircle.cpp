@@ -44,7 +44,7 @@ int main()
                d = d + 4*x + 6;
           }
           
-          drawCircle(xc,yc,x,y);
+          drawCircle(x,y,xc,yc);
           delay(50);
      }
 
