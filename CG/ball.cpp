@@ -14,7 +14,7 @@ int main()
     char ch; //choice
     int gd=DETECT,gm, flag;
     char *msg; //char pointer for msg
-    msg[0]=;
+    msg[0]='s';
     initgraph(&gd,&gm,NULL);
     while(1)
     {
