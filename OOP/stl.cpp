@@ -16,7 +16,7 @@ class Item
         //overloading used for less than operator
         bool operator<(const Item& i2)
         {
-        if(code<i2.code)
+        if(cost<i2.cost)
             return 1;
         else
             return 0;
