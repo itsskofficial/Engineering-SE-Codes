@@ -56,6 +56,7 @@ for i in range(rows):
 
 print(f"Multiplication of two matrices: {matrix3}")
 for i in matrix3:
+	print(i)
 	
 #transpose
 for i in range(cols):
