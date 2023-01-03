@@ -20,7 +20,7 @@ def selection(arr,n):
                     lowest = j
                     temp = arr[i]
                     arr[i] = arr[lowest]
-                    arr[j] = temp
+                    arr[lowest] = temp
                     flag+=1
             if flag==0:
                 min_itself+=1
