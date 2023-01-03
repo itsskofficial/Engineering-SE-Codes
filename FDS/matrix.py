@@ -50,7 +50,7 @@ for i in range(rows):
     for j in range(cols):
         res=0
         for k in range(cols):
-            res+=matrix1[i][k]+matrix2[k][j]
+            res+=matrix1[i][k]*matrix2[k][j]
         col.append(res)
     matrix3.append(col)
 
