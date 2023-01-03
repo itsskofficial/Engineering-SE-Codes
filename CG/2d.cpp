@@ -179,7 +179,7 @@ int main()
     int y[10];
     int x1 = 300, y1 = 0, x2 = 300, y2 = 600;
     int x3 = 0, y3 = 250, x4 = 600, y4 = 250;
-    int sx,sy ;
+    float sx,sy ;
     int tx, ty;
     int gd = DETECT, gm = DETECT, choice, deg, e ,i ,j;
     float theta;
