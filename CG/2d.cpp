@@ -52,7 +52,7 @@ void findRCoordinate(float r[][3], int p[][1])
 }
 
 
-void scale(int x[], int y[], float sx, float sy, int e)
+void scale(int x[], int y[], int sx, int sy, int e)
 {
     for (int i = 0; i < e; i++)
     {
@@ -179,7 +179,7 @@ int main()
     int y[10];
     int x1 = 300, y1 = 0, x2 = 300, y2 = 600;
     int x3 = 0, y3 = 250, x4 = 600, y4 = 250;
-    float sx,sy ;
+    int sx,sy ;
     int tx, ty;
     int gd = DETECT, gm = DETECT, choice, deg, e ,i ,j;
     float theta;
