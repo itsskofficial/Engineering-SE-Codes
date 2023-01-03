@@ -17,7 +17,7 @@ def selection(arr,n):
             lowest = i
             for j in range(i+1,n):
                 if arr[i]>arr[j]:
-                    lowest = arr[j]
+                    lowest = j
                     temp = arr[i]
                     arr[i] = arr[j]
                     arr[j] = temp
