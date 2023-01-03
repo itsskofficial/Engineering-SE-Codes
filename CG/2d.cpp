@@ -52,7 +52,7 @@ void findRCoordinate(float r[][3], int p[][1])
 }
 
 
-void scale(int x[], int y[], int sx, int sy, int e)
+void scale(int x[], int y[], float sx, float sy, int e)
 {
     for (int i = 0; i < e; i++)
     {
