@@ -11,6 +11,7 @@ def bubble(arr,n):
 #selection sort
 def selection(arr,n):
     min_itself=0
+    lowest=0
     while min_itself!=n:
         for i in range(n):
             flag = 0
