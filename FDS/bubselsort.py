@@ -19,7 +19,7 @@ def selection(arr,n):
                 if arr[i]>arr[j]:
                     lowest = j
                     temp = arr[i]
-                    arr[i] = arr[j]
+                    arr[i] = arr[lowest]
                     arr[j] = temp
                     flag+=1
             if flag==0:
