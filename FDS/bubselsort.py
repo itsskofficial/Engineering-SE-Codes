@@ -14,7 +14,7 @@ def selection(arr,n):
     while min_itself!=n:
         for i in range(n):
             flag = 0
-            lowest = arr[i]
+            lowest = i
             for j in range(i+1,n):
                 if arr[i]>arr[j]:
                     lowest = arr[j]
