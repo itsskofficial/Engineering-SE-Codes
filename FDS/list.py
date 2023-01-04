@@ -53,7 +53,7 @@ def foot(crickandbad,football): #students who play only football
   for i in crickandbad: #check in union of the set
     for j in onlyfoot:
       if i==j:
-        onlyfoot.remove(i) #if found then remove from the list
+        onlyfoot.remove(j) #if found then remove from the list
   return onlyfoot
 
 def crick_foot(cricket,badminton,football): #students who play cricket and football but not badminton
@@ -65,7 +65,7 @@ def crick_foot(cricket,badminton,football): #students who play cricket and footb
     for i in crickfoot:
       for j in badminton: #check in badminton
         if i==j:
-          crickfoot.remove(i) #if common found remove
+          crickfoot.remove(j) #if common found remove
   return crickfoot
 
 #function calls
