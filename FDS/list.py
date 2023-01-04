@@ -9,7 +9,7 @@ football_players=football.split(',')
 
 def split(str,char):
   result=[]
-  
+  temp=""
 #print what you got from the user
 print (cricket_players)
 print (badminton_players)
