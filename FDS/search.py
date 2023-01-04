@@ -31,9 +31,9 @@ def fibo_search(arr,n,key):
     return f
 
 arr=[]
-n= int(input("Enter the roll nos of students who attended the training program: "))
+n= int(input("Enter the number of students who attended the training program: "))
 
-print("\nNow enter the elements one by one:")
+print("\nNow enter the roll nos one by one:")
 for i in range(n):
     e=int(input())
     arr.append(e)
