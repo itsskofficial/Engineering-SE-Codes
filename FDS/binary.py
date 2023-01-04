@@ -3,7 +3,6 @@ def bin_search(arr,l,h,key):
         low=l
         high=h-1
         mid=int((low+high)/2)
-        print(low,high,mid)
     else:
         low=l
         high=h
