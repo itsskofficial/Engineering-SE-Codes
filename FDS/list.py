@@ -7,6 +7,8 @@ badminton_players=badminton.split(',')
 football=input("\nEnter names of students who play football (seperated by commas): ")
 football_players=football.split(',')
 
+def split(str,char):
+  
 #print what you got from the user
 print (cricket_players)
 print (badminton_players)
