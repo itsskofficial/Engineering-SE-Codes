@@ -43,7 +43,7 @@ def crick_or_bad(cricket,badminton,crickbad): #students who play cricket and bad
   for i in crick_or_bad: #check in intersection of set
     for j in crickbad:
       if i==j:
-        crickorbad.remove(j) #if found remove from the list
+        crickorbad.remove(i) #if found remove from the list
   return crickorbad
 
 def foot(crickandbad,football): #students who play only football
