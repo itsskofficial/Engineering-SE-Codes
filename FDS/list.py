@@ -19,8 +19,9 @@ def split(str,char):
         temp=""
   else:
     temp+=i
-  if temp in not in result:
+  if temp not in result:
     result.append(temp)
+    
 #print what you got from the user
 print (cricket_players)
 print (badminton_players)
