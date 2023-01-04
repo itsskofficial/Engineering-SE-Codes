@@ -3,7 +3,7 @@
 cricket=input("Enter names of students who play cricket (seperated by commas): ")
 cricket_players=split(cricket,',')
 badminton=input("\nEnter names of students who play badminton (seperated by commas): ")
-badminton_players=badminton.split(',')
+badminton_players=split(badminton,',')
 football=input("\nEnter names of students who play football (seperated by commas): ")
 football_players=football.split(',')
 
