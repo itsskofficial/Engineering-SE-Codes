@@ -1,3 +1,20 @@
+def bin_search(arr,l,h,key):
+    if (len(arr[l:h])%2!=0):
+        low=l
+        high=h-1
+        mid=int((low+high)/2)
+    else:
+        low=l
+        high=h
+        mid=int((low+high)/2)
+        
+    if key==arr[mid]:
+        return mid+1
+    elif key<arr[mid]:
+        return bin_search(arr,0,mid-1,key)
+    else:
+        return bin_search(arr,mid+1,len(arr),key)
+
 def fibo(n):
     fibo_arr=[0,1]
     for i in range(n):
@@ -43,7 +60,7 @@ key=int(input("\nEnter roll no to search: "))
 print("\n1.Binary Search\n2.Fibonacci Search\n")
 choice= int(input("Enter choice number for searching: "))
 if choice==1:
-    
+
 pos=fibo_search(arr,n,key)
 
 print(f"The student is at {pos} position")
