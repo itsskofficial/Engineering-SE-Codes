@@ -13,7 +13,7 @@ def bin_search(arr,l,h,key):
     elif key<arr[mid]:
         return bin_search(arr,low,mid-1,key)
     else:
-        return bin_search(arr,mid+1,len(arr),key)
+        return bin_search(arr,mid+1,high,key)
 
 def fibo(n):
     fibo_arr=[0,1]
