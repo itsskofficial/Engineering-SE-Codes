@@ -11,7 +11,7 @@ def bin_search(arr,l,h,key):
     if key==arr[mid]:
         return mid+1
     elif key<arr[mid]:
-        return bin_search(arr,0,mid-1,key)
+        return bin_search(arr,low,mid-1,key)
     else:
         return bin_search(arr,mid+1,len(arr),key)
 
