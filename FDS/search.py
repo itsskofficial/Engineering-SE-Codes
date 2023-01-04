@@ -38,7 +38,7 @@ for i in range(n):
     e=int(input())
     arr.append(e)
 
-choice= int(input("E"))
+choice= int(input("Enter choice number for searching: "))
 key=int(input("\nEnter roll no to search: "))
 pos=fibo_search(arr,n,key)
 
