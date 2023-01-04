@@ -11,7 +11,7 @@ def split(str,char):
   result=[]
   temp=""
   for i in str:
-    
+    if i==char and 
 #print what you got from the user
 print (cricket_players)
 print (badminton_players)
