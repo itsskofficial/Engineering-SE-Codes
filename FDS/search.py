@@ -38,8 +38,10 @@ for i in range(n):
     e=int(input())
     arr.append(e)
 
-choice= int(input("Enter choice number for searching: "))
+
 key=int(input("\nEnter roll no to search: "))
+
+choice= int(input("Enter choice number for searching: "))
 pos=fibo_search(arr,n,key)
 
 print(f"The student is at {pos} position")
