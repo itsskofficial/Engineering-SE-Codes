@@ -60,7 +60,7 @@ key=int(input("\nEnter roll no to search: "))
 print("\n1.Binary Search\n2.Fibonacci Search\n")
 choice= int(input("Enter choice number for searching: "))
 if choice==1:
-    bin_search(arr,0,n,key)
+    pos=bin_search(arr,0,n,key)
 elif choice==2:
     pos=fibo_search(arr,n,key)
 
