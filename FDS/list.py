@@ -40,8 +40,8 @@ def crick_bad(cricket,badminton): #students who play both cricket and badminton
 
 def crick_or_bad(cricket,badminton,crickbad): #students who play cricket and badminton but not both
   crickorbad=cricket+badminton #concatenate both lists
-  for i in crickbad: #check in intersection of set
-    for j in crickorbad:
+  for i in crick_or_bad: #check in intersection of set
+    for j in crickbad:
       if i==j:
         crickorbad.remove(j) #if found remove from the list
   return crickorbad
