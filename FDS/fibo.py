@@ -1,5 +1,3 @@
-import copy
-
 def fibo(n):
     fibo_arr=[0,1]
     for i in range(n):
