@@ -41,4 +41,4 @@ for i in range(n):
 key=int(input("\nEnter roll no to search: "))
 pos=fibo_search(arr,n,key)
 
-print(f"The element is at {pos} position")
+print(f"The student is at {pos} position")
