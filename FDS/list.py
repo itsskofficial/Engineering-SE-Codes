@@ -12,7 +12,8 @@ def split(str,char):
   temp=""
   for i in str:
     if i==char:
-      if te
+      if temp not in result:
+        
 #print what you got from the user
 print (cricket_players)
 print (badminton_players)
