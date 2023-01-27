@@ -18,7 +18,7 @@ def radix_sort(arr,n):
     print(radix)
     for i in range(1,highest_place+1):
         for j in arr:
-            rem=(j%(10**i))//(10**i-1)
+            rem=(j%(10**i))/(10**i-1)
             if j not in radix[rem]:
                 radix[rem].append(j)
         print(radix)
