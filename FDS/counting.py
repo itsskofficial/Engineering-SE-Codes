@@ -30,4 +30,5 @@ def count_sort(arr):
         sorted_arr[pos]=i
     return sorted_arr
 
-sorted_arr=count_sort(arr)
+arr=count_sort(arr)
+print(arr)
