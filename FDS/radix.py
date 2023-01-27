@@ -23,11 +23,11 @@ def radix_sort(arr,n):
         for i in range(0,10):
             temp=radix[i]
             for i in range(n-1):
-            for j in range(0,n-i-1):
-            if arr[j]>arr[j+1]:
-                temp=arr[j]
-                arr[j]=arr[j+1]
-                arr[j+1]=temp
+                for j in range(0,n-i-1):
+                    if arr[j]>arr[j+1]:
+                    temp=arr[j]
+                    arr[j]=arr[j+1]
+                    arr[j+1]=temp
 
 
     arr=[]
