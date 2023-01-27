@@ -17,7 +17,7 @@ def radix_sort(arr,n):
         for j in arr:
             rem=j%(10**i)
             print(radix[rem])
-            radix[rem].append(j)
+            radix[rem].append(j.copy())
         print(radix)
 
 radix_sort(arr,n)
