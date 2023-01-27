@@ -10,4 +10,4 @@ def bucket_sort(arr,n):
     max_ele=max(arr)
     bucket={}
     if max_ele>100:
-        bucket
+        for i in range(0,10)
