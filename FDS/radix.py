@@ -15,3 +15,5 @@ def radix_sort(arr,n):
             rem=j%(10**i)
             radix[rem].append(j)
         print(radix)
+        
+radix_sort(arr,n)
