@@ -27,7 +27,7 @@ def radix_sort(arr,n):
                     if arr[k]>arr[k+1]:
                         temp=arr[k]
                         arr[k]=arr[k+1]
-                        arr[j+1]=temp
+                        arr[k+1]=temp
 
 
     arr=[]
