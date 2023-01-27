@@ -19,7 +19,7 @@ def radix_sort(arr,n):
         for j in arr:
             rem=j%(10**i)
             if j not in radix[rem]:
-                radix[rem].append(deepcopy(j))
+                radix[rem].append(j)
         print(radix)
     arr=[]
     for i in radix:
