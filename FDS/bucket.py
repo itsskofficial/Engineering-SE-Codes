@@ -14,5 +14,5 @@ def bucket_sort(arr,n):
         for i in range(0,1001,100):
             bucket[i]=[]
     else:
-        for i in range(0,1001,100):
+        for i in range(0,101,10):
             bucket[i]=[]
