@@ -25,9 +25,9 @@ def radix_sort(arr,n):
             for j in range(len(temparr)-1):
                 for k in range(0,len(temparr)-j-1):
                     if arr[k]>arr[k+1]:
-                        temp=arr[k]
-                        arr[k]=arr[k+1]
-                        arr[k+1]=temp
+                        temp=temparr[k]
+                        temparr[k]=temparr[k+1]
+                        temparr[k+1]=temp
 
 
     arr=[]
