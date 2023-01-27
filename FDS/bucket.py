@@ -24,4 +24,4 @@ def bucket_sort(arr,n):
                     temp=temparr[k]
                     temparr[k]=temparr[k+1]
                     temparr[k+1]=temp
-        bucket[y]=temparr
+        bucket[i]=temparr
