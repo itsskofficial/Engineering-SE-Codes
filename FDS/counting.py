@@ -31,6 +31,7 @@ def count_sort(arr,n):
     print(temp2)
     for i in arr:
         pos = temp2[(temp1.index(i))]
+        print(pos)
         temp2[temp1.index(i)] -= 1
         sorted_arr[pos] = i
     return sorted_arr
