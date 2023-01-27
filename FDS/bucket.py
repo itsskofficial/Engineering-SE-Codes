@@ -9,4 +9,4 @@ print(f"You entered the array : {arr}")
 def bucket_sort(arr,n):
     min_ele=min(arr)
     max_ele=max(arr)
-    
+    if min
