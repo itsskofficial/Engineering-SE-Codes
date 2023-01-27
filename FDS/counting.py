@@ -18,4 +18,5 @@ def count_sort(arr,n):
         for j in arr:
             if i==j:
                 c+=1
-        
+        count.append(c)
+    
