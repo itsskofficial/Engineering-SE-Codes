@@ -14,6 +14,7 @@ def count_sort(arr,n):
     temp2 = []
     count = []
     sorted_arr=[0]*n
+    print(sorted_arr)
     for i in range(min_ele, max_ele + 1):
         temp1.append(i)
     print(temp1)
