@@ -18,4 +18,10 @@ def bucket_sort(arr,n):
             bucket[i]=[]
     for i in range(len(bucket)):
         temparr=bucket[i]
-        
+        for j in range(len(temparr)-1):
+            for k in range(0,len(temparr)-j-1):
+                if arr[k]>arr[k+1]:
+                    temp=temparr[k]
+                    temparr[k]=temparr[k+1]
+                    temparr[k+1]=temp
+        radix[m]=temparr
