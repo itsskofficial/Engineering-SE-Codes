@@ -19,8 +19,8 @@ def radix_sort(arr,n):
                 radix[rem].append(j)
         print(radix)
     arr=[]
-for i in radix:
-    for j in i:
-        arr.append(j)
+    for i in radix:
+        for j in i:
+            arr.append(j)
 radix_sort(arr,n)
 
