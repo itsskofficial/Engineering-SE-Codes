@@ -8,13 +8,13 @@ for i in range(n):
 print(f"You entered the array : {arr}")
 
 def radix_sort(arr,n):
-    radix={}
-    for i in range(10):
-        radix[i]=[]
-    print(radix)
     max_ele=max(arr)
     highest_place=len(str(max_ele))
     for i in range(1,highest_place+1):
+        radix={}
+    for i in range(10):
+        radix[i]=[]
+    print(radix)
         for j in arr:
             rem=int((j%(10**i))/int((10**(i-1))))
             if j not in radix[rem]:
