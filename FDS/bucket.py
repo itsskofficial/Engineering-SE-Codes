@@ -39,4 +39,5 @@ def bucket_sort(arr,n):
             arr.append(j)
     return arr
 
-arr=
+arr=bucket_sort(arr,n)
+print(arr)
