@@ -23,4 +23,5 @@ radix_sort(arr,n)
 
 arr=[]
 for i in radix:
-    for j in i
+    for j in i:
+        arr.append(j)
