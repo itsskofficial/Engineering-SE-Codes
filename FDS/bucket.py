@@ -22,7 +22,7 @@ def bucket_sort(arr,n):
             temparr=bucket[j]
             if i>keys[j] and i<keys[j+1]:
                 temparr.append(i)
-            bucket[j]
+            bucket[j]=temparr
     for i in range(len(bucket)):
         temparr=bucket[i]
         for j in range(len(temparr)-1):
