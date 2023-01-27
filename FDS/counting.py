@@ -14,6 +14,8 @@ def count_sort(arr,n):
     for i in range(min_ele,max_ele+1):
         temp.append(i)
     for i in arr:
+        c=0
         for j in arr:
             if i==j:
                 c+=1
+        
