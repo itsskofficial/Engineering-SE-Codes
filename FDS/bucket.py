@@ -17,7 +17,8 @@ def bucket_sort(arr,n):
         for i in range(0,101,10):
             bucket[i]=[]
     for i in arr:
-        for (key,value) o
+        for (key,value) in bucket:
+            if i>
     for i in range(len(bucket)):
         temparr=bucket[i]
         for j in range(len(temparr)-1):
