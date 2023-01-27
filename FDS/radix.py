@@ -31,7 +31,8 @@ def radix_sort(arr,n):
             radix[i]=temparr
         arr=[]
         for i in range(10):
-            temparr=
+            temparr=radix[i]
+            arr.
     
 radix_sort(arr,n)
 
