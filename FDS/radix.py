@@ -22,6 +22,7 @@ def radix_sort(arr,n):
         print(radix)
         for i in range(0,10):
             temp=radix[i]
+            min=temp[0]
             for i in temp:
                 
 
