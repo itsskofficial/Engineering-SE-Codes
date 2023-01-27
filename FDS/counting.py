@@ -9,7 +9,7 @@ print(f"You entered the array : {arr}")
 def count_sort(arr,n):
     min_ele=min(arr)
     max_ele=max(arr)
-    tem1=[]
+    temp1=[]
     count=[]
     for i in range(min_ele,max_ele+1):
         temp1.append(i)
