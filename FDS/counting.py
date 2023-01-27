@@ -29,3 +29,5 @@ def count_sort(arr,n):
         temp2[temp1.index(i)]-=1
         sorted_arr[pos]=i
     return sorted_arr
+
+count_sort(arr,n)
