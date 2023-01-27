@@ -5,6 +5,7 @@ for i in range(n):
     ele=int(input())
     arr.append(ele)
 print(f"You entered the array : {arr}")
+for i in range
 
 def radix_sort(arr,n):
     radix=[[]] * 10
