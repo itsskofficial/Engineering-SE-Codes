@@ -21,8 +21,8 @@ def radix_sort(arr,n):
                 radix[rem].append(j)
         print(radix)
         for i in range(0,10):
-            temp=radix[i]
-            for j in range(len(temp)-1):
+            temparr=radix[i]
+            for j in range(len(temparr)-1):
                 for k in range(0,len(temp)-j-1):
                     if arr[k]>arr[k+1]:
                         temp=arr[k]
