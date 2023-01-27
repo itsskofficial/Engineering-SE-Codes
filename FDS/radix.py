@@ -16,7 +16,7 @@ def radix_sort(arr,n):
     highest_place=len(str(max_ele))
     for i in range(1,highest_place+1):
         for j in arr:
-            rem=(j%(10**i))/int((10**i-1))
+            rem=int((j%(10**i))/int((10**i-1)))
             if j not in radix[rem]:
                 radix[rem].append(j)
         print(radix)
