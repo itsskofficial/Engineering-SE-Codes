@@ -34,5 +34,5 @@ def count_sort(arr,n):
     return sorted_arr
 
 
-arr = count_sort(arr)
-print(arr,n)
+arr = count_sort(arr,n)
+print(arr)
