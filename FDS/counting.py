@@ -7,12 +7,12 @@ for i in range(n):
 print(f"You entered the array : {arr}")
 
 
-def count_sort(arr):
+def count_sort(arr,n):
     min_ele = min(arr)
     max_ele = max(arr)
     temp1 = []
     temp2 = []
-    count = [] 
+    count = [] * n 
     for i in range(min_ele, max_ele + 1):
         temp1.append(i)
     print(temp1)
@@ -34,4 +34,4 @@ def count_sort(arr):
 
 
 arr = count_sort(arr)
-print(arr)
+print(arr,n)
