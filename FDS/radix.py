@@ -34,6 +34,6 @@ def radix_sort(arr,n):
             temparr=radix[i]
             for j in temparr:
                 arr.append(j)
-    
+    return arr
 arr=radix_sort(arr,n)
 print(arr)
