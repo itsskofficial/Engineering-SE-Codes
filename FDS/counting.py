@@ -28,10 +28,8 @@ def count_sort(arr,n):
     temp2.append(count[0])
     for i in range(1, len(count)):
         temp2.append(temp2[i - 1] + count[i])
-    print(temp2)
     for i in arr:
         pos = temp2[(temp1.index(i))]
-        print(pos)
         temp2[temp1.index(i)] -= 1
         sorted_arr[pos-1] = i
     return sorted_arr
