@@ -20,8 +20,6 @@ def radix_sort(arr,n):
         for j in arr:
             if i>1:
                 rem=(j%(10**i))//(10**i-1)
-            else:
-                rem=
             if j not in radix[rem]:
                 radix[rem].append(j)
         print(radix)
