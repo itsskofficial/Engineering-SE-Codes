@@ -11,4 +11,4 @@ def bucket_sort(arr,n):
     bucket={}
     if max_ele>100:
         for i in range(0,1001,100):
-            bucket[]
+            bucket[i]=[]
