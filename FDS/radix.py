@@ -21,4 +21,4 @@ def radix_sort(arr,n):
 
 radix_sort(arr,n)
 
-for 
+arr=[]
