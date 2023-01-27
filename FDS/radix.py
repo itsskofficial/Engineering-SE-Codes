@@ -13,7 +13,8 @@ def radix_sort(arr,n):
     for i in range(1,highest_place+1):
         for j in arr:
             rem=j%(10**i)
+            print(rem)
             radix[rem].append(j)
         print(radix)
-        
+
 radix_sort(arr,n)
