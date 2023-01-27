@@ -22,4 +22,5 @@ def count_sort(arr,n):
         count.append(c)
     temp2[0]=count[0]
     for i in range(1,len(count)+1):
-        temp2[i]=temp2[]
+        temp2[i]=temp2[i-1]+count[i]
+    
