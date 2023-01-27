@@ -19,7 +19,7 @@ def bucket_sort(arr,n):
     keys=bucket.keys()
     for i in arr:
         for j in range(len(keys)):
-            if i>keys[j] and i<key[j+1]:
+            if i>keys[j] and i<keys[j+1]:
                 bucket[j].append(i)
     for i in range(len(bucket)):
         temparr=bucket[i]
