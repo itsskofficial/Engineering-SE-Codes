@@ -12,8 +12,8 @@ def radix_sort(arr,n):
     highest_place=len(str(max_ele))
     for i in range(1,highest_place+1):
         radix={}
-        for i in range(10):
-            radix[i]=[]
+        for l in range(10):
+            radix[l]=[]
         print(radix)
         for j in arr:
             rem=int((j%(10**i))/int((10**(i-1))))
