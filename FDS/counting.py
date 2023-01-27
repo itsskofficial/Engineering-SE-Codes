@@ -26,7 +26,7 @@ def count_sort(arr):
     print(count)
     temp2.append(count[0])
     for i in range(1, len(count)):
-        temp2[i] = temp2[i - 1] + count[i]
+        temp2.append(temp2[i - 1] + count[i])
     for i in arr:
         pos = temp2[(temp1.index(i))]
         temp2[temp1.index(i)] -= 1
