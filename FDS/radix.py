@@ -18,10 +18,9 @@ def radix_sort(arr,n):
             if j not in radix[rem]:
                 radix[rem].append(j)
         print(radix)
-
-radix_sort(arr,n)
-
-arr=[]
+    arr=[]
 for i in radix:
     for j in i:
         arr.append(j)
+radix_sort(arr,n)
+
