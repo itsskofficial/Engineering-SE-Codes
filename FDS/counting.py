@@ -16,7 +16,7 @@ def count_sort(arr):
     for i in range(min_ele,max_ele+1):
         temp1.append(i)
     print(temp1)
-    for i in arr:
+    for i in temp1:
         c=0
         for j in arr:
             if i==j:
