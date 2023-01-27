@@ -6,7 +6,7 @@ for i in range(n):
     arr.append(ele)
 print(f"You entered the array : {arr}")
 
-def count_sort(arr,n):
+def count_sort(arr):
     min_ele=min(arr)
     max_ele=max(arr)
     temp1=[]
@@ -30,4 +30,4 @@ def count_sort(arr,n):
         sorted_arr[pos]=i
     return sorted_arr
 
-count_sort(arr,n)
+sorted_arrcount_sort(arr)
