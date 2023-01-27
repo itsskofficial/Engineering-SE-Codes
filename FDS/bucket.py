@@ -6,4 +6,4 @@ for i in range(n):
     arr.append(ele)
 print(f"You entered the array : {arr}")
 
-def bucket
+def bucket_sort(arr,n):
