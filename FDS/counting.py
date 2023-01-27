@@ -22,6 +22,7 @@ def count_sort(arr):
             if i==j:
                 c+=1
         count.append(c)
+    print(count)
     temp2.append(count[0])
     for i in range(1,len(count)+1):
         temp2[i]=temp2[i-1]+count[i]
