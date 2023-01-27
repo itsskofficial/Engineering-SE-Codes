@@ -1,3 +1,4 @@
+from copy import deepcopy
 arr=[]
 n=int(input("Enter no of elements in the array: "))
 print("\nEnter the elements one by one now: ")
