@@ -12,4 +12,4 @@ def radix_sort(arr,n):
     highest_place=len(str(max_ele))
     for i in range(highest_place):
         for j in arr:
-            rem=j%(10*)
+            rem=j%(10**i)
