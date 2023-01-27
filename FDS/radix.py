@@ -7,7 +7,7 @@ for i in range(n):
 print(f"You entered the array : {arr}")
 
 def radix_sort(arr,n):
-    radix=[[0]] * 9
+    radix=[[0]] * 10
     print(radix)
     max_ele=max(arr)
     highest_place=len(str(max_ele))
