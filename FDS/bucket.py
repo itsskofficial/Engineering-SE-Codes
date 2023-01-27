@@ -32,4 +32,8 @@ def bucket_sort(arr,n):
                     temparr[k]=temparr[k+1]
                     temparr[k+1]=temp
         bucket[i]=temparr
-    
+    arr=[]
+    for i in range(10):
+        temparr=radix[i]
+        for j in temparr:
+            arr.append(j)
