@@ -33,4 +33,4 @@ def count_sort(arr,n):
 
 
 arr = count_sort(arr,n)
-print(f"Sorted array is {arr)
+print(f"\nSorted array is {arr}")
