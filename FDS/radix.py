@@ -8,6 +8,7 @@ for i in range(n):
 print(f"You entered the array : {arr}")
 
 def radix_sort(arr,n):
+    radix={}
     for i in range(10):
         radix={0:[]}
     max_ele=max(arr)
