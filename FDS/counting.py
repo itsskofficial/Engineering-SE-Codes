@@ -17,14 +17,12 @@ def count_sort(arr,n):
     print(sorted_arr)
     for i in range(min_ele, max_ele + 1):
         temp1.append(i)
-    print(temp1)
     for i in temp1:
         c = 0
         for j in arr:
             if i == j:
                 c += 1
         count.append(c)
-    print(count)
     temp2.append(count[0])
     for i in range(1, len(count)):
         temp2.append(temp2[i - 1] + count[i])
