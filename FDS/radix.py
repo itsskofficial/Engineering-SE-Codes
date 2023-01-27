@@ -14,6 +14,7 @@ def radix_sort(arr,n):
     print(radix)
     max_ele=max(arr)
     highest_place=len(str(max_ele))
+    print(highest_place)
     print(radix)
     for i in range(1,highest_place+1):
         for j in arr:
