@@ -14,7 +14,6 @@ def count_sort(arr,n):
     temp2 = []
     count = []
     sorted_arr=[0]*n
-    print(sorted_arr)
     for i in range(min_ele, max_ele + 1):
         temp1.append(i)
     for i in temp1:
@@ -34,4 +33,4 @@ def count_sort(arr,n):
 
 
 arr = count_sort(arr,n)
-print(arr)
+print(f"Sorted array is {arr)
