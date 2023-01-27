@@ -11,5 +11,5 @@ def count_sort(arr,n):
     max_ele=max(arr)
     count=[]
     for i in range(min_ele,max_ele+1):
-        count.append(i)
+        temp.append(i)
     
