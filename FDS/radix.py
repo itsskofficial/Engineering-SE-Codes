@@ -30,7 +30,7 @@ def radix_sort(arr,n):
                         temparr[k+1]=temp
             radix[i]=temparr
         arr=[]
-        for i in radix:
+        for i in range(10):
             for j in i:
                 arr.append(j)
     
