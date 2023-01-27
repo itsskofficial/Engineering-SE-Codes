@@ -13,12 +13,10 @@ def radix_sort(arr,n):
         radix={}
         for l in range(10):
             radix[l]=[]
-        print(radix)
         for j in arr:
             rem=int((j%(10**i))/int((10**(i-1))))
             if j not in radix[rem]:
                 radix[rem].append(j)
-        print(radix)
         for m in range(0,10):
             temparr=radix[m]
             for j in range(len(temparr)-1):
