@@ -20,4 +20,5 @@ def count_sort(arr,n):
             if i==j:
                 c+=1
         count.append(c)
-    for 
+    for i in count:
+        
