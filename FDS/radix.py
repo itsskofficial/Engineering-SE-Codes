@@ -20,8 +20,8 @@ def radix_sort(arr,n):
             if j not in radix[rem]:
                 radix[rem].append(j)
         print(radix)
-        for i in range(0,10):
-            temparr=radix[i]
+        for m in range(0,10):
+            temparr=radix[m]
             for j in range(len(temparr)-1):
                 for k in range(0,len(temparr)-j-1):
                     if arr[k]>arr[k+1]:
