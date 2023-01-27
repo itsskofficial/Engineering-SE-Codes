@@ -37,3 +37,6 @@ def bucket_sort(arr,n):
         temparr=bucket[i]
         for j in temparr:
             arr.append(j)
+    return arr
+
+arr=
