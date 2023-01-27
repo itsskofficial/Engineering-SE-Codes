@@ -9,4 +9,5 @@ print(f"You entered the array : {arr}")
 def count_sort(arr,n):
     min_ele=min(arr)
     max_ele=max(arr)
-    for i in range()
+    for i in range(min_ele,max_ele+1):
+        
