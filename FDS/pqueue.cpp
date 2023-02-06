@@ -7,6 +7,6 @@ class node{
 };
 class Queue{
     public:
-        
+        node *head,
 
 }
