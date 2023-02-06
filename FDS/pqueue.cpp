@@ -53,7 +53,8 @@ void Queue::dequeue(){
         prev=temp;
         temp = temp->next;
     }
-
+    
+    pre
     delete temp
 
     front=front->next;
