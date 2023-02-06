@@ -9,9 +9,8 @@ class node{
 class Queue{
     public:
         node *head;
-        node **top;
-        *top->data=-1;
-        node **rear;
+        node *top;
+        node *rear;
         void create();
 };
 
