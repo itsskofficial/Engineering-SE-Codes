@@ -8,7 +8,7 @@ class node{
 };
 class Queue{
     public:
-        node *top=NULL;
+        node *front=NULL;
         node *rear=NULL;
         void enqueue();
 };
