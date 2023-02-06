@@ -55,7 +55,7 @@ void Queue::dequeue(){
     }
 
     if (temp==front){
-        front
+        front=fron
     }
     
     prev->next=temp->next;
