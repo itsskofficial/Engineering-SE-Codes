@@ -8,8 +8,8 @@ class node{
 class Queue{
     public:
         node *head;
-        node **top;
-        node **rear;
+        node *top;
+        node *rear;
         void create();
 };
 
