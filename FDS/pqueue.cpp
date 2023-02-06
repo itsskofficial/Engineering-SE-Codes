@@ -1,2 +1,6 @@
 #include<iostream>
-using namespa
+using namespace std;
+
+class Queue{
+    
+}
