@@ -11,7 +11,7 @@ class Queue{
         node *head;
         node *top=NULL;
         node *rear=NULL;
-        void create();
+        void enqueue();
 };
 
 void Queue::create(){
