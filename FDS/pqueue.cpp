@@ -8,7 +8,6 @@ class node{
 };
 class Queue{
     public:
-        node *head;
         node *top=NULL;
         node *rear=NULL;
         void enqueue();
@@ -17,6 +16,6 @@ class Queue{
 void Queue::enqueue(){
     node *temp;
     temp=new node;
-    
+
 }
 
