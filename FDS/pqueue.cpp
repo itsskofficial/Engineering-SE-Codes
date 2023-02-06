@@ -58,7 +58,7 @@ void Queue::dequeue(){
     }
     else
         prev->next=temp->next;
-    delete temp
+    delete temp;
 }
 
 void Queue::display(){
