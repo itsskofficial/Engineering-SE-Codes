@@ -9,12 +9,12 @@ class Queue{
     public:
         node *head;
         node **top;
-        node *rear;
+        node **rear;
         void create();
 };
 
 void Queue::create(){
     node *temp;
-    if
+    if ()
 }
 
