@@ -19,7 +19,8 @@ void Queue::enqueue(){
     cout << "Enter no to insert in Queue: ";
     cin>>temp->data;
     if (rear==NULL){
-        front=rear=
+        front=temp;
+        rear = temp;
     }
 }
 
