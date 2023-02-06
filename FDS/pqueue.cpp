@@ -36,6 +36,7 @@ void Queue::dequeue(){
     }
 
     node *temp=front;
+    
     int min = 0;
     while (temp!=NULL){
         if (temp->data<min){
@@ -50,7 +51,8 @@ void Queue::dequeue(){
             break;
         }
         prev=temp;
-        temp->
+        temp = temp->next;
+
     }
 
     front=front->next;
