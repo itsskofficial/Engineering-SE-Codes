@@ -28,4 +28,6 @@ void Queue::enqueue(){
     rear = temp;
 }
 
-void Queue::
+void Queue::dequeue(){
+    
+}
