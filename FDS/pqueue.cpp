@@ -39,7 +39,7 @@ void Queue::dequeue(){
     int min = 0;
     while (temp!=NULL){
         if (temp->data<min){
-            
+            min=temp->data;
         }
     }
 
