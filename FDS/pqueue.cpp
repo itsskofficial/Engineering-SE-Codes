@@ -14,8 +14,9 @@ class Queue{
         void enqueue();
 };
 
-void Queue::create(){
+void Queue::enqueue(){
     node *temp;
-    if 
+    temp=new node;
+    
 }
 
