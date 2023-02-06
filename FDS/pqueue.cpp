@@ -42,10 +42,12 @@ void Queue::dequeue(){
             min=temp->data;
         }
 
-        temp=temp->next;
+        temp = temp->next;
     }
 
-    while ()
+    while (temp->data!=min){
+        temp
+    }
 
     front=front->next;
 
