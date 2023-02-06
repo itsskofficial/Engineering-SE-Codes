@@ -24,6 +24,6 @@ void Queue::enqueue(){
         return;
     }
 
-    e
+    rear->next=
 }
 
