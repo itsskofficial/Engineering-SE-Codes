@@ -3,6 +3,7 @@ using namespace std;
 
 class Queue{
     public:
-        int top;
-        
+        int rear;
+        int pq[10];
+
 }
