@@ -21,6 +21,9 @@ void Queue::enqueue(){
     if (rear==NULL){
         front=temp;
         rear = temp;
+        return;
     }
+
+    e
 }
 
