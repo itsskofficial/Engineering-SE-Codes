@@ -46,7 +46,7 @@ void Queue::dequeue(){
     }
 
     while (temp!=NULL){
-        temp
+        if (temp->data)
     }
 
     front=front->next;
