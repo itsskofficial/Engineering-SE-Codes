@@ -30,10 +30,10 @@ void Queue::enqueue(){
 }
 
 void Queue::dequeue(){
-    node *temp;
     if (front==NULL){
         return;
     }
 
-    front
+    node *temp=front;
+    
 }
