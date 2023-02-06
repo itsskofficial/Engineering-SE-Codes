@@ -36,6 +36,7 @@ void Queue::dequeue(){
     }
 
     node *temp=front;
+    int min=
     front=front->next;
 
     if (front==NULL){
