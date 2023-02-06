@@ -12,6 +12,7 @@ class Queue{
         node *rear=NULL;
         void enqueue();
         void dequeue();
+        void display();
 };
 
 void Queue::enqueue(){
