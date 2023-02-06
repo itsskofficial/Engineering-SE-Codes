@@ -14,7 +14,7 @@ class Queue{
 };
 
 void Queue::create(){
-        node *;
-
+    node *temp;
+    
 }
 
