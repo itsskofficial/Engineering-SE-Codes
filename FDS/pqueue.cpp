@@ -16,6 +16,8 @@ class Queue{
 void Queue::enqueue(){
     node *temp;
     temp=new node;
-    cout<<"Enter no to insert in Queue"
+    cout << "Enter no to insert in Queue: ";
+    cin>>temp->data;
+    
 }
 
