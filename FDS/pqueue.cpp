@@ -14,7 +14,7 @@ class Queue{
 };
 
 void Queue::create(){
-    char ans="Y";
-    
+        node *ne;
+
 }
 
