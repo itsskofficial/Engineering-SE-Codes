@@ -40,6 +40,7 @@ void Queue::dequeue(){
     while (temp!=NULL){
         
     }
+
     front=front->next;
 
     if (front==NULL){
