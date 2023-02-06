@@ -35,5 +35,7 @@ void Queue::dequeue(){
     }
 
     node *temp=front;
+    front=front->next;
+
     
 }
