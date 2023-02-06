@@ -18,6 +18,8 @@ void Queue::enqueue(){
     temp=new node;
     cout << "Enter no to insert in Queue: ";
     cin>>temp->data;
-    
+    if (rear==NULL){
+        
+    }
 }
 
