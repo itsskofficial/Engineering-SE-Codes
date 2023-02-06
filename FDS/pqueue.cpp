@@ -13,5 +13,5 @@ class Queue{
         void create();
 };
 
-Queu
+void Queue::create()
 
