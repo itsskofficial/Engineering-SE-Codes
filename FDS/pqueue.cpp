@@ -16,6 +16,6 @@ class Queue{
 void Queue::enqueue(){
     node *temp;
     temp=new node;
-
+    
 }
 
