@@ -45,5 +45,6 @@ void Queue::dequeue(){
 }
 
 void Queue::display(){
-    
+    node *temp;
+    while()
 }
