@@ -10,4 +10,5 @@ class Queue{
         node *head;
         node **top;
         node **rear;
-}
+};
+
