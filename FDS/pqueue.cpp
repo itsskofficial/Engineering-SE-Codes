@@ -41,7 +41,11 @@ void Queue::dequeue(){
         if (temp->data<min){
             min=temp->data;
         }
+
+        temp=temp->next;
     }
+
+    while ()
 
     front=front->next;
 
