@@ -10,6 +10,8 @@ class Queue{
         node *head;
         node **top;
         node **rear;
-        void 
+        void create();
 };
+
+Queu
 
