@@ -17,6 +17,6 @@ class Queue{
 
 void Queue::create(){
     node *temp;
-    if ()
+    if 
 }
 
