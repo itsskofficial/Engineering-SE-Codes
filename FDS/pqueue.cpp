@@ -10,6 +10,7 @@ class Queue{
     public:
         node *head;
         node **top;
+        
         node **rear;
         void create();
 };
