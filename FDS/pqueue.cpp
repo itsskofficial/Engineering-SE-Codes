@@ -31,5 +31,9 @@ void Queue::enqueue(){
 
 void Queue::dequeue(){
     node *temp;
-    if (front=)
+    if (front==NULL){
+        return;
+    }
+
+    
 }
