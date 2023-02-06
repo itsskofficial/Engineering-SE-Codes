@@ -45,7 +45,7 @@ void Queue::dequeue(){
         temp = temp->next;
     }
 
-    while (temp->data!=min){
+    while (temp->data!=min && temp!=NULL){
         temp
     }
 
