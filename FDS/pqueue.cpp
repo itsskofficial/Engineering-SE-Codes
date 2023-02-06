@@ -50,7 +50,7 @@ void Queue::dequeue(){
             break;
         }
         prev=temp;
-        temp->data=>
+        temp->
     }
 
     front=front->next;
