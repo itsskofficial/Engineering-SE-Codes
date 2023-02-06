@@ -37,5 +37,9 @@ void Queue::dequeue(){
     node *temp=front;
     front=front->next;
 
-    
+    if (front==NULL){
+        rear = NULL;
+    }
+
+    delete temp;
 }
