@@ -9,5 +9,5 @@ class Queue{
     public:
         node *head;
         node **top;
-        nod
+        node **rear;
 }
