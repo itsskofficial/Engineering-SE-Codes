@@ -13,5 +13,8 @@ class Queue{
         void create();
 };
 
-void Queue::create()
+void Queue::create(){
+    char ans="Y";
+    
+}
 
