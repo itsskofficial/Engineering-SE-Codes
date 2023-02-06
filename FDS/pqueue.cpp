@@ -48,9 +48,8 @@ void Queue::dequeue(){
 void Queue::display(){
     node *temp=front;
     while(temp!=rear){
-        cout<<temp->data;
+        cout<<temp->data<<" ";
         temp = temp->next;
     }
     cout<<temp->data;
-    
 }
