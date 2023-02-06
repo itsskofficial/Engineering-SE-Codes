@@ -57,8 +57,8 @@ void Queue::dequeue(){
     if (temp==front){
         front = temp->next;
     }
-    
-    prev->next=temp->next;
+    else
+        prev->next=temp->next;
 
     delete temp
 
