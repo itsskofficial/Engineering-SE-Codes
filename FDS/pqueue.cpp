@@ -34,7 +34,6 @@ void Queue::dequeue(){
     if (front==NULL){
         return;
     }
-
     node *temp=front;
     node *prev;
     int min = 0;
@@ -59,16 +58,7 @@ void Queue::dequeue(){
     }
     else
         prev->next=temp->next;
-
     delete temp
-
-    front=front->next;
-
-    if (front==NULL){
-        rear = NULL;
-    }
-
-    delete temp;
 }
 
 void Queue::display(){
