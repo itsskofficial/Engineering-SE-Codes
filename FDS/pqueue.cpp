@@ -8,6 +8,6 @@ class node{
 class Queue{
     public:
         node *head;
-        node **top
-
+        node **top;
+        nod
 }
